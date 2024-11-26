@@ -17,10 +17,8 @@ function temas() {
                 alert("Conceptos Básicos de Inversión \nLa inversión consiste en destinar recursos, generalmente dinero, a instrumentos o proyectos con el objetivo de obtener ganancias o rendimientos en el futuro. Entre los conceptos clave están: \n Riesgo y retorno: A mayor riesgo, generalmente, mayor es el potencial de ganancia, pero también la posibilidad de pérdida. \nDiversificación: Distribuir las inversiones en diferentes activos para reducir el riesgo.\nHorizonte temporal: El tiempo que se planea mantener una inversión antes de obtener resultados.\nLiquidez: La facilidad con la que un activo puede convertirse en efectivo sin perder valor.\nEntender estos principios permite tomar decisiones informadas y alineadas con tus objetivos financieros.")
 
         }
-        let continuar=confirm("deseas continuar: (aceptar-cancelar)")
-        alert(continuar)
 
-        if(!continuar){
+        if(!confirm("deseas continuar: (aceptar-cancelar)")){
             controlMenu=false;
         }
     }
