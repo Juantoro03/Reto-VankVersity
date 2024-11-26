@@ -114,14 +114,15 @@ function modulo3(){
               );
 
         }
+        if(confirm("¿deseas ver los demas módulos? (aceptar: Sí - cancelar: No)")){
+            temas()
+        }else{
+            mensaje()
+        }
 
     }
     
 
-    if(confirm("¿deseas ver los demas módulos? (aceptar: Sí - cancelar: No)")){
-        temas()
-    }else{
-        mensaje()
-    }
+    
 }
 
